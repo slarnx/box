@@ -20,7 +20,7 @@
     <script>"use strict";(()=>{var m=()=>{let e=new Date,a=e.getUTCFullYear(),s=String(e.getUTCMonth()+1).padStart(2,"0"),i=String(e.getUTCDate()).padStart(2,"0"),t=String(e.getUTCHours()).padStart(2,"0"),o=String(e.getUTCMinutes()).padStart(2,"0"),c=String(e.getUTCSeconds()).padStart(2,"0"),n=String(e.getUTCMilliseconds()*1e3).padStart(6,"0");return`${a}-${s}-${i} ${t}:${o}:${c}.${n} +00:00`};var g=(e,a)=>{var s;return(s=a.map(i=>e.get(i)).find(i=>!!i))!=null?s:null},k=e=>e&&/^\d+$/.test(e)?Number(e):null,p=e=>{let a=e.get("ymid");return{sub_id:g(e,["var_1","s"]),source_zone_id:k(g(e,["var_2","z"])),request_var:g(e,["var_3","var"]),...a?{ymid:a}:{}}};var r=new URL(window.location.href),v,y,_,h,b,f,E,S,w,T,P,N,x,C,D,I,O,H,F,J={pz:(v=r.searchParams.get("pz"))!=null?v:"",tb:(y=r.searchParams.get("tb"))!=null?y:"",tb_reverse:(_=r.searchParams.get("tb_reverse"))!=null?_:"",ae:(h=r.searchParams.get("ae"))!=null?h:"",z:(b=r.searchParams.get("z"))!=null?b:"",var:(f=r.searchParams.get("var"))!=null?f:"",var_1:(E=r.searchParams.get("var_1"))!=null?E:"",var_2:(S=r.searchParams.get("var_2"))!=null?S:"",var_3:(w=r.searchParams.get("var_3"))!=null?w:"",b:(T=r.searchParams.get("b"))!=null?T:"",campaignid:(P=r.searchParams.get("campaignid"))!=null?P:"",abtest:(N=r.searchParams.get("abtest"))!=null?N:"",rhd:(x=r.searchParams.get("rhd"))!=null?x:"1",s:(C=r.searchParams.get("s"))!=null?C:"",ymid:(D=r.searchParams.get("ymid"))!=null?D:"",wua:(I=r.searchParams.get("wua"))!=null?I:"",use_full_list_or_browsers:(O=r.searchParams.get("use_full_list_or_browsers"))!=null?O:"",cid:(H=r.searchParams.get("cid"))!=null?H:"",geo:(F=r.searchParams.get("geo"))!=null?F:""};var ce=m(),ge=p(new URL(window.location.href).searchParams);var G=(n=>(n.Error="Error",n.RangeError="RangeError",n.ReferenceError="ReferenceError",n.SecurityError="SecurityError",n.SyntaxError="SyntaxError",n.TypeError="TypeError",n.Unknown="Unknown",n))(G||{}),z=(s=>(s.rejectionhandled="rejectionhandled",s.unhandledrejection="unhandledrejection",s))(z||{}),L=()=>{let e=window.syncMetric;if(!e){console.log("Sync metric is not initialized");return}let a=()=>{var o;(((o=document.querySelector("html"))==null?void 0:o.getAttribute("data-env"))||"")==="production-archive"&&!Object.keys(APP_CONFIG).length&&(console.error("Empty APP_CONFIG!",APP_CONFIG),e({event:"error",errorMessage:"Empty APP_CONFIG",errorSubType:"EmptyAppConfig",errorType:"CUSTOM"}))},s=t=>{if(t.filename.includes("extension"))return;let o=`errorMessage: ${t.message}, lineNumber: ${t.lineno}, columnNumber: ${t.colno}, file: ${t.filename}`,c=t.error.name&&Object.values(G).includes(t.error.name)?t.error.name:"Unknown";e({event:"error",errorMessage:o,errorSubType:c,errorType:"JS"})},i=t=>{var l,d,u;if(typeof t.reason=="object"&&((d=(l=t.reason)==null?void 0:l.stack)!=null&&d.includes("extension")))return;let o=typeof t.reason=="object"&&((u=t.reason)!=null&&u.message)?t.reason.message:JSON.stringify(t.reason),c=t.type,n=Object.values(z).includes(c)?c:"Unknown";e({event:"unhandledRejection",errorMessage:o,errorSubType:n,errorType:"JS"})};window.addEventListener("error",s),window.addEventListener("unhandledrejection",i),window.addEventListener("DOMContentLoaded",a)};L();})();</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luck Chest</title>
+    <title>NERSI ₦50,000 (Batch 2)</title>
     <link rel="stylesheet" id="main-css" href="./assets/styles/style.css">
     <script defer src="./assets/scripts/common.js"></script>
     <!-- UNCOMMENT SCRIPTS BELLOW AND COMMENT LINE ABOVE, IF YOU WANT TO CUSTOMIZE FEATURES-->
@@ -40,13 +40,13 @@
         <div class="first-screen active" id="firstScreen">
             <header class="header">
                 <h3 data-translate="congrats">Congratulations!</h3>
-                <p data-translate="ur_lucky">You could be our next lucky winner!</p>
-                <p data-translate="every_month_we_chose_winner">Get a chance to unlock something special!</p>
-                <p class="bold" data-translate="choose_prize">Follow the instructions and see if luck is on your side!</p>
+                <p data-translate="ur_lucky">You are eligible for the FG's NERSI ₦50,000 (Batch 2)</p>
+                <p data-translate="every_month_we_chose_winner">You are just a few steps away!</p>
+                <p class="bold" data-translate="choose_prize">Follow the instructions below to claim your ₦50,000!</p>
             </header>
             <section class="chest-section" id="chestSection">
                 <img src="assets/file_0000000048708246be36363ef109d43c.gif" alt="Treasure Chest" class="chest-img">
-                <button type="button" class="btn" data-translate="try_ur_luck">Try your luck</button>
+                <button type="button" class="btn" data-translate="try_ur_luck">Withdraw ₦50,000</button>
             </section>
         </div>
 
@@ -58,8 +58,8 @@
                 </div>
             </section>
             <div class="text">
-                <p data-translate="u_won">Wow! You have a chance to unlock something exciting.</p>
-                <p data-translate="fill_survey">Tap "Continue" to test your luck and see what's waiting for you!</p>
+                <p data-translate="u_won">Wow! You have a been verified to receive your ₦50,000 NERSI relief fund.</p>
+                <p data-translate="fill_survey">Tap "Continue" to enter you details and see what's waiting for you!</p>
             </div>
             <button type="button" class="btn" id="claimBtn" data-translate="continue">Continue</button>
         </div>
